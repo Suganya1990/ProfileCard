@@ -1,75 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="/style.css" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
 
   <title>Frontend Mentor | Profile card component</title>
-
 </head>
-<body class="main">
+
+<body >
+  <div class="backgroundImage"></div>
   <div class="profile-card">
     <div class="profile-card__header">
       <div class="profile-card__avatar">
-        <img src="/images/image-victor.jpg" alt="User Profile Picture">
+        <img src="/images/image-victor.jpg" alt="User Profile Picture" />
       </div>
     </div>
-    
-      <div class="profile-card__info">
-        <h1> <span>Victor Crest</span> 26 </h1>
-    
-        <h2>London</h2>
-      </div>
-      <hr>
-      <div class="profile-card__stats container">
-        <div class="row">
-          <div class="col-xs-4 col-sm-4">
-            <h1>80k</h1>
-            <h2>Followers</h2>
-          </div>        
-          
-          <div class="col-xs-4 col-sm-4">
-            <h1>803K</h1>
-            <h2>Likes</h2>
-          </div>
-          <div class="col-xs-4 col-sm-4">
-            <h1>1.4K</h1>
-            <h2>Photos</h2>
 
-          </div>
+    <div class="profile-card__info">
+      <h1><span>Victor Crest</span> 26</h1>
+      <h2>London</h2>
+    </div>
+    <hr />
+    <div class="profile-card__stats container-fluid">
+      <div class="row " >
+        <div class="col-xs-4 col-sm-4">
+          <h1 class="profile-stats__h1">80k</h1>
+          <h2 class="profile-stats__h2">Followers</h2>
         </div>
-          
+        <div class="col-xs-4 col-sm-4">
+          <h1 class="profile-stats__h1" >803K</h1>
+          <h2 class="profile-stats__h2">Likes</h2>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <h1 class="profile-stats__h1">1.4K</h1>
+          <h2 class="profile-stats__h2">Photos</h2>
+        </div>
       </div>
-        
     </div>
-     
+    
 
-  </div>
- 
-         
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Suganya Maheswaran</a>.
-  </div>
+  <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+      Mentor</a>. Coded by <a href="#">Suganya Maheswaran</a>.</div>
 </body>
+
 </html>
