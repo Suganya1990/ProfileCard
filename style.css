@@ -23,18 +23,6 @@ body {
   background-color: white;
 }
 
-.profile-card::before {
-  content: url(/images/bg-pattern-top.svg);
-  position: absolute;
-  left: -98.65px;
-  top: 394.97px;
-}
-
-.profile-card::after {
-  content: url(/images/bg-pattern-bottom.svg);
-  position: absolute;
-}
-
 .profile-card__header {
   height: 40%;
   background: url(/images/bg-pattern-card.svg);
@@ -42,7 +30,7 @@ body {
   border-top-right-radius: 10px;
 }
 .profile-card__avatar {
-  position: absolute;
+  position: abssolute;
   width: 96px;
   height: 96px;
   left: calc(50% - 96px / 2);
